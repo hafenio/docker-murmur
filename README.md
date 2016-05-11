@@ -14,3 +14,13 @@
 ```
 docker run -d --name murmur -p 64738:64738/tcp -p 64738:64738/udp hafenio/murmur
 ```
+
+### Murmur Snapshot
+
+**Version:** 1.3.0~1015~gba1a189~snapshot
+
+If you want to use the Murmur snapshot you can pull the Docker image with the **develop** tag:
+
+```
+docker run -d --name murmur -p 64738:64738/tcp -p 64738:64738/udp hafenio/murmur:develop
+```
