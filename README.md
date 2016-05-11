@@ -4,9 +4,9 @@
 
 **Alpine Linux:** edge
 
-**Mumur Server:** 1.2.16
+**Mumur Server:** 1.3.0~1015~gba1a189~snapshot
 
-**Size:** 53.05 MB
+**Size:** 57.36 MB
 
 [Docker Hub](https://hub.docker.com/r/hafenio/murmur/)
 

@@ -2,11 +2,11 @@ FROM alpine:edge
 
 MAINTAINER HAFEN.IO <hello@hafen.io>
 
-ENV version=1.2.16
+ENV version=1.3.0~1015~gba1a189~snapshot
 
 RUN apk add --update wget tar ca-certificates && rm -rf /var/cache/apk/*
-RUN wget https://github.com/mumble-voip/mumble/releases/download/${version}/murmur-static_x86-${version}.tar.bz2
-RUN tar -xvf murmur-static_x86-${version}.tar.bz2 && \ 
+RUN wget http://mumble.info/snapshot/murmur-static_x86-${version}.tar.bz2
+RUN tar -xvf murmur-static_x86-${version}.tar.bz2 && \
     mv murmur-static_x86-${version} /app && \
     rm murmur-static_x86-${version}.tar.bz2
 
