@@ -6,6 +6,8 @@
 
 **Mumur Server:** 1.2.16
 
+**Size:** 53.05 MB
+
 [Docker Hub](https://hub.docker.com/r/hafenio/murmur/)
 
 ### Start Murmur Server
