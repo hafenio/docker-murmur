@@ -17,7 +17,7 @@ docker run -d --name murmur -p 64738:64738/tcp -p 64738:64738/udp hafenio/murmur
 
 ### Murmur Snapshot
 
-**Version:** 1.3.0~1372~gd21de05~snapshot
+**Version:** 1.3.0~1383~g4f4e5ac~snapshot
 
 If you want to use the Murmur snapshot you can pull the Docker image with the **develop** tag:
 
