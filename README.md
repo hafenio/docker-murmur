@@ -4,7 +4,7 @@
 
 **Alpine Linux:** edge
 
-**Mumur Server:** 1.3.0~1372~gd21de05~snapshot
+**Mumur Server:** 1.3.0~1383~g4f4e5ac~snapshot
 
 **Size:** 57.43 MB
 
